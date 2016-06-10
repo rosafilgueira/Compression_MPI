@@ -30,6 +30,6 @@ directory path where externo.c is stored)
 7a. if you want to compile and execute a sequential example (sequential.c)
      ./compile-sequential.sh
 
-8b. if you want to compile and execute a sequential example (sequential.c)
+7b. if you want to compile and execute a parallel example (mpi-example.c)
     ./compile-mpi.sh
 
