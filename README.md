@@ -10,12 +10,16 @@ The first version is called PRACTICAL 3.0 (PRAcTICaL-MPI (Portable Adaptive Comp
 	Secondly, it allows for turning the compression on and off and selecting the most appropriate compression algorithm at run-time, depending on the characteristics of each message and on network performance.
 	
 	We have validated PRAcTICaL-MPI in different MPI implementations and HPC clusters. 
-	The evaluation shows that compressing MPI messages with the best algorithm and only when it is worthwhile, we obtain a great reduction in the overall execution time for many of the scenarios considered.```
-
-The second version is called PRACTICAL 4.0, which includes previous compression algorithms plus Snappy and LZ4 agorithms. This version, was presented as part of the work of "Applying Selectively Parallel I/O Compression to Parallel Storage Systems", in Euro-PAR 2014. 
+	The evaluation shows that compressing MPI messages with the best algorithm and only when it is worthwhile,
+	we obtain a great reduction in the overall execution time for many of the scenarios considered.```
+	```
+The second version is called PRACTICAL 4.0, which includes previous compression algorithms plus Snappy and LZ4 agorithms. This version, was presented as part of the work of "Applying Selectively Parallel I/O Compression to Parallel Storage Systems", in Euro-PAR 2014. More details at "http://link.springer.com/chapter/10.1007%2F978-3-319-09873-9_24"
 
 ```Abstract:
-	This paper presents a new I/O technique called Selectively Parallel I/O Compression (SPIOC) for providing high-speed storage and access to data in QoS enabled parallel storage systems. 
+	This paper presents a new I/O technique called Selectively Parallel I/O Compression (SPIOC)
+	for providing high-speed storage and access to data in QoS enabled parallel storage systems. 
 	SPIOC reduces the time of I/O operations by applying transparent compression between the computing and the storage systems. 
-	SPIOC can predict whether to compress or not at runtime, allowing parallel or sequential compression techniques, guaranteeing QoS and allowing partial and full reading by decompressing the minimum part of the file. 
-	SPIOC maximises the measured efficiency of data movement by applying run-time customising compression before storing data in the Papio storage system```
+	SPIOC can predict whether to compress or not at runtime, allowing parallel or sequential compression techniques, 
+	guaranteeing QoS and allowing partial and full reading by decompressing the minimum part of the file. 
+	SPIOC maximises the measured efficiency of data movement by applying run-time customising compression before storing data in the Papio storage system
+	```
