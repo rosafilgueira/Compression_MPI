@@ -2,7 +2,7 @@
 * Copyright © the University of Edinburgh 
 * Name:        externo.c
 * Author:      Rosa Filgueira
-* Description: Practical-MPI Library.
+* Description: Practical-MPI Library (for MPICH).
 * Year: 2011.
 *************************************************************************/
 
