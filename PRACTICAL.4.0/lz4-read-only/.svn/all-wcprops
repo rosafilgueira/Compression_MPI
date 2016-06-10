@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/97/trunk
+END
+lz4c.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/96/trunk/lz4c.c
+END
+lz4_encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/95/trunk/lz4_encoder.h
+END
+lz4.h
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/97/trunk/lz4.h
+END
+bench.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/97/trunk/bench.c
+END
+lz4_format_description.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/92/trunk/lz4_format_description.txt
+END
+bench.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/92/trunk/bench.h
+END
+lz4hc.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/97/trunk/lz4hc.c
+END
+fuzzer.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/97/trunk/fuzzer.c
+END
+lz4hc_encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/96/trunk/lz4hc_encoder.h
+END
+lz4hc.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/96/trunk/lz4hc.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/97/trunk/Makefile
+END
+LZ4 Streaming Format.odt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/94/trunk/LZ4%20Streaming%20Format.odt
+END
+fullbench.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/97/trunk/fullbench.c
+END
+xxhash.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/97/trunk/xxhash.c
+END
+xxhash.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/97/trunk/xxhash.h
+END
+lz4.c
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/97/trunk/lz4.c
+END

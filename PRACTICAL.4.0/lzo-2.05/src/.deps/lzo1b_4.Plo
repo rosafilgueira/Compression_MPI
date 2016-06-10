@@ -1,0 +1,102 @@
+src/lzo1b_4.lo: src/lzo1b_4.c src/compr1b.h src/config1b.h src/lzo_conf.h \
+ include/lzo/lzoconf.h config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ include/lzo/lzodefs.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/stdlib.h src/miniacc.h \
+ /usr/include/assert.h src/lzo_ptr.h include/lzo/lzo1b.h src/lzo1b_de.h \
+ src/lzo_dict.h src/stats1b.h src/lzo1b_cc.h src/lzo1b_c.ch \
+ src/lzo1b_sm.ch src/lzo1b_tm.ch src/lzo1b_cr.ch src/lzo1b_cm.ch
+
+src/compr1b.h:
+
+src/config1b.h:
+
+src/lzo_conf.h:
+
+include/lzo/lzoconf.h:
+
+config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:
+
+include/lzo/lzodefs.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/stdlib.h:
+
+src/miniacc.h:
+
+/usr/include/assert.h:
+
+src/lzo_ptr.h:
+
+include/lzo/lzo1b.h:
+
+src/lzo1b_de.h:
+
+src/lzo_dict.h:
+
+src/stats1b.h:
+
+src/lzo1b_cc.h:
+
+src/lzo1b_c.ch:
+
+src/lzo1b_sm.ch:
+
+src/lzo1b_tm.ch:
+
+src/lzo1b_cr.ch:
+
+src/lzo1b_cm.ch:
