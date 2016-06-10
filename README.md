@@ -1,7 +1,7 @@
 # Compression_MPI
 In this repository I have stored two versions of the same library for compressing at run-time MPI messages using different compression algorithms. The compression is adaptive, so it turns on and off dependeding on the: data size of the message, network speed, data type of the message. Both versions have instructions (README.txt) about how to install them.
 
-The first version is called PRACTICAL 3.0 (PRAcTICaL-MPI -- Portable Adaptive Compression Library-MPI --), and it has two subversions, one for using with MPICH and othe for using with OPENMPI. This library was explained at the Euro-Par 2012 conference in the work published as "An Adaptive, Scalable, and Portable Technique for Speeding Up MPI-Based Applications". This vesion includes LZ0, RLE, HUFFMAN, SHANNON, RICE compression algorithms. More details at: http://link.springer.com/chapter/10.1007%2F978-3-642-32820-6_72". The presentation performed at the Euro-Par 2012 is also uploaded (Presentation-EuroPar2012-PracticalMPI.pdf)
+The first version is called PRACTICAL 3.0 (PRAcTICaL-MPI -- Portable Adaptive Compression Library-MPI --), and it has two subversions, one for using with MPICH and othe for using with OPENMPI. This library was explained at the Euro-Par 2012 conference in the work published as "An Adaptive, Scalable, and Portable Technique for Speeding Up MPI-Based Applications". This vesion includes LZ0, RLE, HUFFMAN, SHANNON, RICE compression algorithms. More details at: http://link.springer.com/chapter/10.1007%2F978-3-642-32820-6_72". The presentation performed at the Euro-Par 2012 is also uploaded (./Presentation-EuroPar12-PracticalMPI.pdf)
 
 	```Abstract:
 	This paper presents a portable optimization for MPI communications, called PRAcTICaL-MPI (Portable Adaptive Compression Library- MPI). 
@@ -13,7 +13,7 @@ The first version is called PRACTICAL 3.0 (PRAcTICaL-MPI -- Portable Adaptive Co
 	The evaluation shows that compressing MPI messages with the best algorithm and only when it is worthwhile,
 	we obtain a great reduction in the overall execution time for many of the scenarios considered.
 	```
-The second version is called PRACTICAL 4.0, which includes previous compression algorithms plus Snappy and LZ4 agorithms. This version, was presented as part of the work of "Applying Selectively Parallel I/O Compression to Parallel Storage Systems", in Euro-PAR 2014. More details at "http://link.springer.com/chapter/10.1007%2F978-3-319-09873-9_24". The presentation performed at the Euro-Par 2014 is also uploaded (Presentation-EuroPar14-Papio.pdf)
+The second version is called PRACTICAL 4.0, which includes previous compression algorithms plus Snappy and LZ4 agorithms. This version, was presented as part of the work of "Applying Selectively Parallel I/O Compression to Parallel Storage Systems", in Euro-PAR 2014. More details at "http://link.springer.com/chapter/10.1007%2F978-3-319-09873-9_24". The presentation performed at the Euro-Par 2014 is also uploaded (./Presentation-EuroPar14-Papio.pdf)
 
 	```Abstract:
 	This paper presents a new I/O technique called Selectively Parallel I/O Compression (SPIOC)
