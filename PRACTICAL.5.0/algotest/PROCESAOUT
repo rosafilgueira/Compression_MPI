@@ -1,0 +1,16 @@
+set -x
+rm data
+rm tmp_data
+	   P=$( wc -l < $1 )	
+	   NUM_TOT=1
+	   while test $NUM_TOT -le $P #tantos saltos como mpirun
+            do  	
+		STRING1=`head -n $NUM_TOT $1 | tail -1 | awk '{print $6}'`
+		STRING2=`head -n $NUM_TOT $1 | tail -1 | awk '{print $9}'`
+		STRING3=`head -n $NUM_TOT $1 | tail -1 | awk '{print $11}'`
+                echo "$STRING1 $STRING2 $STRING3"  >> tmp_data
+		NUM_TOT=`expr $NUM_TOT + 1`
+             done
+
+          sed 's/,//g' tmp_data > data
+
