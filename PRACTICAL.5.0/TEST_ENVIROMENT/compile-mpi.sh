@@ -1,6 +1,6 @@
 set -x 
-DIRLZO2=/lustre/home/y15/rosaf/Compression_MPI/PRACTICAL.5.0/lzo-2.05/bin
-DIRPRACTICAL=/lustre/home/y15/rosaf/Compression_MPI/PRACTICAL.5.0
+DIRLZO2=$HOME/Compression_MPI/PRACTICAL.5.0/lzo-2.05/bin
+DIRPRACTICAL=$HOME/Compression_MPI/PRACTICAL.5.0
 
 module load intel-mpi-17/17.0.2.174
 mpicc -c mpi-example.c
