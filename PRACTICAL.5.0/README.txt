@@ -2,8 +2,8 @@
 * Copyright © the University of Edinburgh 
 * Name:        externo.c
 * Author:      Rosa Filgueira
-* Description: Practical-MPI.4.0 Library.
-* Year: 2014.
+* Description: Practical-MPI.5.0 Library.
+* Year: 2019.
 /*************************************************************************
 ----- Installing PRACTICAL MPI -----
 1. Enter in lzo-2.05 directory:
