@@ -19,10 +19,9 @@
 4. Execute precompile.sh
 	./precompile.sh
 
------ Testing the enviroment -----
+----- Testing Installation -----
 5. Enter in Test directory
 	cd TEST_ENVIROMENT/
-
 
 6. if you want to compile and execute a sequential example (sequential.c)
     6.a.1 ./compile-sequential.sh
@@ -31,7 +30,7 @@
 
 7. if you want to compile and execute a sequential example (sequential.c)
     7.b.1 ./compile-mpi.sh
-    7.b.2 (qsub) execute-mpi-example.sh
+    7.b.2 (qsub) execute-mpi-example.sh   ---> Important: EDIT execute-mpi-example.sh to indicate your budget under #PBS -A (e.g. z04 )
 	Note: you can do small test in the login node
 		module load intel-mpi-17
  		export OMP_NUM_THREADS=1
