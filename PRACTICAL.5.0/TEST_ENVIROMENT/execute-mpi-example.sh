@@ -1,11 +1,10 @@
 #!/bin/bash --login
-
 #PBS -N compression_MPI
 #PBS -l select=6:ncpus=36
 #PBS -l place=scatter:excl
 #PBS -l walltime=00:02:00
+#PBS -A z04
 
-#PBS -A y15-SoHPC
 
 # Change to the directory that the job was submitted from
 cd $PBS_O_WORKDIR
