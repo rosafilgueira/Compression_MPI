@@ -25,13 +25,11 @@
 
 
 6. if you want to compile and execute a sequential example (sequential.c)
-    6.a.0 Edit compile-sequential.sh (Only check if you have installed everything ok)
     6.a.1 ./compile-sequential.sh
     6.a.2 ./sequential-example rle
 	Note: You can run ./sequential-example , and see the compression algorithms availables. rle is just one of them.
 
 7. if you want to compile and execute a sequential example (sequential.c)
-    7.b.0 Edit compile-mpi.sh (Only check if you have installed everything ok)
     7.b.1 ./compile-mpi.sh
     7.b.2 (qsub) execute-mpi-example.sh
 	Note: you can do small test in the login node
