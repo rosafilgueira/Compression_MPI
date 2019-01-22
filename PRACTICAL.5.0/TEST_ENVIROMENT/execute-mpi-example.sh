@@ -1,4 +1,4 @@
-#!/bin/bash --login
+#!/bin/bash
 #PBS -N compression_MPI
 #PBS -l select=6:ncpus=36
 #PBS -l place=scatter:excl
