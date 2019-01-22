@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N latency_qdr
-#PBS -l select=24:ncpus=36
+#PBS -l select=10:ncpus=36
 #PBS -l place=scatter:excl
 #PBS -l walltime=00:30:00
 #PBS -A z04
